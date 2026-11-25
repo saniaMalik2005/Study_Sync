@@ -15,5 +15,10 @@
 - **AI gave:** functions.php (session, CSRF, flash helpers), User.php, header/footer, signup.php, and JavaScript validation.
 - **What I changed and why:** I tested the form with empty fields, a short password and a duplicate email, and checked in phpMyAdmin that the password is stored as a hash and not as plain text.
 
+## Entry 4: Login, logout and home page
+- **Prompt:** Asked Claude for login/logout with password_verify, sessions, a protected dashboard and a home page.
+- **AI gave:** verifyLogin() in User.php, login.php, logout.php, a placeholder dashboard.php and index.php.
+- **What I changed and why:** (ekhane nijer bodlano jinis likho)
+
 ## AI-free feature
 - Subjects CRUD (I will write this myself without AI)

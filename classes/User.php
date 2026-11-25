@@ -37,4 +37,16 @@ class User
         $user = $stmt->fetch();
         return $user ?: null;
     }
+    
+    // Login check: email ar password thik kina
+    public function verifyLogin(string $email, string $password): ?array
+    {
+        $user = $this->findByEmail($email);
+
+        // password_verify() hash er sathe asol password milay
+        if ($user && password_verify($password, $user['password'])) {
+            return $user;
+        }
+        return null;
+    }
 }
