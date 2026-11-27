@@ -22,3 +22,9 @@
 
 ## AI-free feature
 - Subjects CRUD (I will write this myself without AI)
+
+
+## Entry 5: Profile and 404 page
+- **Prompt:** Asked Claude for a profile page with edit info, change password, and a custom 404 page.
+- **AI gave:** New User.php methods, profile.php with two forms, updated app.js validation, 404.php and an .htaccess ErrorDocument rule.
+- **What I changed and why:** I tested that the old password must match before changing it, and that the new name shows on the dashboard after saving.
